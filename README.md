@@ -248,6 +248,25 @@ console.log( out );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmeanpn`][@stdlib/stats/base/dmeanpn]: calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.
+-   [`@stdlib/stats/base/dmeanstdev`][@stdlib/stats/base/dmeanstdev]: calculate the mean and standard deviation of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dmeanvarpn`][@stdlib/stats/base/dmeanvarpn]: calculate the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.
+-   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -314,6 +333,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@neely:1966a]: https://doi.org/10.1145/365719.365958
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmeanpn]: https://github.com/stdlib-js/stats-base-dmeanpn
+
+[@stdlib/stats/base/dmeanstdev]: https://github.com/stdlib-js/stats-base-dmeanstdev
+
+[@stdlib/stats/base/dmeanvarpn]: https://github.com/stdlib-js/stats-base-dmeanvarpn
+
+[@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats-base-dstdevpn
+
+<!-- </related-links> -->
 
 </section>
 
