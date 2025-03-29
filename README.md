@@ -105,38 +105,32 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dmeanstdevpn
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-dmeanstdevpn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmeanstdevpn@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var dmeanstdevpn = require( 'path/to/vendor/umd/stats-base-dmeanstdevpn/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmeanstdevpn@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.dmeanstdevpn;
-})();
-</script>
+var dmeanstdevpn = require( '@stdlib/stats-base-dmeanstdevpn' );
 ```
 
 #### dmeanstdevpn( N, correction, x, strideX, out, strideOut )
@@ -253,16 +247,11 @@ var v = dmeanstdevpn.ndarray( N, 1, x, 2, 1, out, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmeanstdevpn@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var Float64Array = require( '@stdlib/array-float64' );
+var dmeanstdevpn = require( '@stdlib/stats-base-dmeanstdevpn' );
 
 var out;
 var x;
@@ -277,11 +266,6 @@ console.log( x );
 out = new Float64Array( 2 );
 dmeanstdevpn( x.length, 1, x, 1, out, 1 );
 console.log( out );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -312,7 +296,7 @@ console.log( out );
 -   <span class="package-name">[`@stdlib/stats-base/dmeanpn`][@stdlib/stats/base/dmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats-base/dmeanstdev`][@stdlib/stats/base/dmeanstdev]</span><span class="delimiter">: </span><span class="description">calculate the mean and standard deviation of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/dmeanvarpn`][@stdlib/stats/base/dmeanvarpn]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats-base/dstdevpn`][@stdlib/stats/base/dstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dstdevpn`][@stdlib/stats/strided/dstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
 
 </section>
 
@@ -394,7 +378,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -404,13 +388,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmeanpn]: https://github.com/stdlib-js/stats-base-dmeanpn/tree/umd
+[@stdlib/stats/base/dmeanpn]: https://github.com/stdlib-js/stats-base-dmeanpn
 
-[@stdlib/stats/base/dmeanstdev]: https://github.com/stdlib-js/stats-base-dmeanstdev/tree/umd
+[@stdlib/stats/base/dmeanstdev]: https://github.com/stdlib-js/stats-base-dmeanstdev
 
-[@stdlib/stats/base/dmeanvarpn]: https://github.com/stdlib-js/stats-base-dmeanvarpn/tree/umd
+[@stdlib/stats/base/dmeanvarpn]: https://github.com/stdlib-js/stats-base-dmeanvarpn
 
-[@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats-base-dstdevpn/tree/umd
+[@stdlib/stats/strided/dstdevpn]: https://github.com/stdlib-js/stats-strided-dstdevpn
 
 <!-- </related-links> -->
 
