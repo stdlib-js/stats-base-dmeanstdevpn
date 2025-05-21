@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-18)
+## Unreleased (2025-05-21)
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#6994](https://github.com/stdlib-js/stdlib/issues/6994)
+[#6994](https://github.com/stdlib-js/stdlib/issues/6994), [#7004](https://github.com/stdlib-js/stdlib/issues/7004)
 
 </section>
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`295552a`](https://github.com/stdlib-js/stdlib/commit/295552a680556056d92f9920f69c402bd779d533) - **chore:** fix C lint errors [(#7052)](https://github.com/stdlib-js/stdlib/pull/7052) _(by zhanggy)_
 -   [`b480ff0`](https://github.com/stdlib-js/stdlib/commit/b480ff02ebf1d1f334d49172358c86e8bca5fbc3) - **chore:** fix C lint errors [(#7012)](https://github.com/stdlib-js/stdlib/pull/7012) _(by zhanggy)_
 -   [`4df836a`](https://github.com/stdlib-js/stdlib/commit/4df836acfee5e6f359fc5d15a31ee9f6ef4237f0) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`49878d2`](https://github.com/stdlib-js/stdlib/commit/49878d2f175bf20a1afa08e9f0a9e3fd541c5a33) - **refactor:** update `stats/base/dmeanstdevpn` native addon from C++ to C [(#4647)](https://github.com/stdlib-js/stdlib/pull/4647) _(by Dhruv Arvind Singh)_
