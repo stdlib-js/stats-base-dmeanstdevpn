@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-05)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`021eb13`](https://github.com/stdlib-js/stdlib/commit/021eb13dce7e7c359ec262d0d37cce210deef3a7) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`295552a`](https://github.com/stdlib-js/stdlib/commit/295552a680556056d92f9920f69c402bd779d533) - **chore:** fix C lint errors [(#7052)](https://github.com/stdlib-js/stdlib/pull/7052) _(by zhanggy)_
 -   [`b480ff0`](https://github.com/stdlib-js/stdlib/commit/b480ff02ebf1d1f334d49172358c86e8bca5fbc3) - **chore:** fix C lint errors [(#7012)](https://github.com/stdlib-js/stdlib/pull/7012) _(by zhanggy)_
 -   [`4df836a`](https://github.com/stdlib-js/stdlib/commit/4df836acfee5e6f359fc5d15a31ee9f6ef4237f0) - **refactor:** update paths _(by Aayush Khanna)_
@@ -43,11 +44,12 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Dhruv Arvind Singh
+-   Gururaj Gurram
 -   Philipp Burckhardt
 -   zhanggy
 
