@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-05)
+## Unreleased (2025-06-21)
+
+<section class="features">
+
+### Features
+
+-   [`5b6d07a`](https://github.com/stdlib-js/stdlib/commit/5b6d07aa23b24d736f1b4b1b9bb8fd4acc7344aa) - add C ndarray interface and refactor implementation for `stats/base/dmeanstdevpn` [(#7400)](https://github.com/stdlib-js/stdlib/pull/7400)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`5b6d07a`](https://github.com/stdlib-js/stdlib/commit/5b6d07aa23b24d736f1b4b1b9bb8fd4acc7344aa) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanstdevpn` [(#7400)](https://github.com/stdlib-js/stdlib/pull/7400) _(by Gururaj Gurram, Athan Reines)_
 -   [`021eb13`](https://github.com/stdlib-js/stdlib/commit/021eb13dce7e7c359ec262d0d37cce210deef3a7) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`295552a`](https://github.com/stdlib-js/stdlib/commit/295552a680556056d92f9920f69c402bd779d533) - **chore:** fix C lint errors [(#7052)](https://github.com/stdlib-js/stdlib/pull/7052) _(by zhanggy)_
 -   [`b480ff0`](https://github.com/stdlib-js/stdlib/commit/b480ff02ebf1d1f334d49172358c86e8bca5fbc3) - **chore:** fix C lint errors [(#7012)](https://github.com/stdlib-js/stdlib/pull/7012) _(by zhanggy)_
